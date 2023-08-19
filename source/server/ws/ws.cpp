@@ -14,7 +14,7 @@
 
 #include <algorithm>
 #include <openssl/sha.h>
-
+#define _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS 
 namespace CppServer {
 namespace WS {
 
