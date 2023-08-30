@@ -25,7 +25,7 @@ include(SetCompilerFeatures)
 include(SetCompilerWarnings)
 include(SetPlatformFeatures)
 include(SystemInformation)
-
+add_compile_options(-Wno-deprecated-declarations)
 # External packages
 if(APPLE)
   set(OPENSSL_ROOT_DIR "/usr/local/opt/openssl@1.1")
